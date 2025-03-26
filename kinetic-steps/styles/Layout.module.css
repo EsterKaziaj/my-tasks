@@ -1,0 +1,100 @@
+/* styles/Layout.module.css */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header layout styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 40px;
+  border-bottom: 1px solid #ccc;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.brand {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #111;
+}
+
+.slash {
+  color: #0070f3;
+  font-weight: 800;
+}
+
+.subtext {
+  font-size: 11px;
+  color: #0070f3;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.4;
+}
+
+.text {
+  color: #003c7c;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.phone {
+  font-size: 15px;
+  font-weight: bold;
+  color: #003c7c;
+  margin-top: 4px;
+}
+
+.phoneIcon {
+  margin-right: 5px;
+}
+
+.phone a {
+  text-decoration: none;
+  color: #003c7c;
+  font-weight: bold;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.links {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.85rem;
+  color: #333;
+  background: #fff;
+}
+
+.links a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 0.4rem;
+}
+
+.footer {
+  background-color: #e0e0e0;
+  padding: 2.5rem 3rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #444;
+}
